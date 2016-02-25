@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046893D61C7F0DE60004EDD1 /* libSatisMeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 046893D41C7F0DE60004EDD1 /* libSatisMeter.a */; };
+		046893D71C7F0DE60004EDD1 /* libSatisMeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 046893D41C7F0DE60004EDD1 /* libSatisMeter.a */; };
+		046893D81C7F0DE60004EDD1 /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046893D51C7F0DE60004EDD1 /* SatisMeterResources.bundle */; };
+		1E000354DE66D11979618C01C6C27AF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2DF0113977AA77A526AB904792CF530A /* SatisMeterLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7117E637FB75DE8ADB7F61164F6A6113 /* SatisMeterLibrary-dummy.m */; };
+		733B4A772B11847D0DF861D1C4CCA26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7D0E60FFACDD383DD327ACCBFDB0CF78 /* Pods-SatisMeterLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA0AC051F8E026AF236FE3E8F618047 /* Pods-SatisMeterLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3170925E4213A971DB26491F2AD2A10 /* SatisMeterLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F6E887EF10D0F14AB521E11DB6A4D2E /* SatisMeterLibrary.bundle */; };
+		ED527A3C4AD57EAC692E133E3C0787A5 /* Pods-SatisMeterLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CA821BF5E400C9EE663C57FD500DB1 /* Pods-SatisMeterLibrary_Tests-dummy.m */; };
+		F54CB25CFBDD674174F8E9F7E3CDE5C0 /* SatisMeterLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FC359C6FCD45C42F4DDF8BC45E45B2 /* SatisMeterLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B0E9E29EFD6C9372E99D91BFB29D5EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F673F8787E0B4C7B61CC303DD046441A;
+			remoteInfo = "SatisMeterLibrary-SatisMeterLibrary";
+		};
+		55579194D960BCAB255BF188F5CFF3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1C1D9EEFC341B08244E32ED3A4641E;
+			remoteInfo = SatisMeterLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046893D21C7F0D960004EDD1 /* SatisMeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatisMeter.h; sourceTree = "<group>"; };
+		046893D41C7F0DE60004EDD1 /* libSatisMeter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSatisMeter.a; sourceTree = "<group>"; };
+		046893D51C7F0DE60004EDD1 /* SatisMeterResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SatisMeterResources.bundle; sourceTree = "<group>"; };
+		0D65EA2A960E8F710C22C961E6D8BB80 /* Pods-SatisMeterLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatisMeterLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1180C8BCBD501EA58B0D5C3AAC8B53D9 /* Pods-SatisMeterLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatisMeterLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		17FC359C6FCD45C42F4DDF8BC45E45B2 /* SatisMeterLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatisMeterLibrary-umbrella.h"; sourceTree = "<group>"; };
+		1CC979325515B9ABAFB4FA790FE1DAB2 /* Pods-SatisMeterLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatisMeterLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28840792070237B32E647B610CB60500 /* SatisMeterLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SatisMeterLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FE517CACDAB3E27E0233564637423CA /* Pods-SatisMeterLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatisMeterLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		45CA821BF5E400C9EE663C57FD500DB1 /* Pods-SatisMeterLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SatisMeterLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		4E1808C7490F02A5CBDEA716E9C33886 /* Pods_SatisMeterLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatisMeterLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6E887EF10D0F14AB521E11DB6A4D2E /* SatisMeterLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatisMeterLibrary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7117E637FB75DE8ADB7F61164F6A6113 /* SatisMeterLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SatisMeterLibrary-dummy.m"; sourceTree = "<group>"; };
+		74F62C067363E5899F79357D68AD0E40 /* SatisMeterLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatisMeterLibrary-prefix.pch"; sourceTree = "<group>"; };
+		75DDA2DE7F9EC8F0E5903AEDD293AA57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893F35608ECEC67896D46124D7913FCE /* Pods-SatisMeterLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatisMeterLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9CA0AC051F8E026AF236FE3E8F618047 /* Pods-SatisMeterLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatisMeterLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9EC2F417224FFA9145C9D8DF7D80EADC /* SatisMeterLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SatisMeterLibrary.modulemap; sourceTree = "<group>"; };
+		B471561A67665533CFD1B7AB50B6AC8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EEA10392A8DB1342366C2C2235EF464B /* SatisMeterLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SatisMeterLibrary.xcconfig; sourceTree = "<group>"; };
+		EF4809BF69C201B50920E040304390FE /* Pods-SatisMeterLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatisMeterLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF6CF64E7A1473FE3CF98F98F871FE41 /* Pods-SatisMeterLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatisMeterLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0632F996C3C429F49FBBBB70243B7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046893D71C7F0DE60004EDD1 /* libSatisMeter.a in Frameworks */,
+				1E000354DE66D11979618C01C6C27AF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77F075BF7403D7285866629BB514D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046893D61C7F0DE60004EDD1 /* libSatisMeter.a in Frameworks */,
+				733B4A772B11847D0DF861D1C4CCA26B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B49672DA79484813335A2011A199EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A95B1518A71AC2F717B0B6ED34BDD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E1808C7490F02A5CBDEA716E9C33886 /* Pods_SatisMeterLibrary_Tests.framework */,
+				5F6E887EF10D0F14AB521E11DB6A4D2E /* SatisMeterLibrary.bundle */,
+				28840792070237B32E647B610CB60500 /* SatisMeterLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F0DEA23DF611BD920D0AECD405C67C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				046893D21C7F0D960004EDD1 /* SatisMeter.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		720F5B2F4B992C984864E8BA270D410E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7644908ADF0B94E5240FB0FF967CF /* SatisMeterLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				720F5B2F4B992C984864E8BA270D410E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				08A95B1518A71AC2F717B0B6ED34BDD6 /* Products */,
+				046893D41C7F0DE60004EDD1 /* libSatisMeter.a */,
+				046893D51C7F0DE60004EDD1 /* SatisMeterResources.bundle */,
+				C3EED00850D0A589927EC4293E881461 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		944EFA175B99E4842F13AF5000AE8ABA /* Pods-SatisMeterLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				75DDA2DE7F9EC8F0E5903AEDD293AA57 /* Info.plist */,
+				1180C8BCBD501EA58B0D5C3AAC8B53D9 /* Pods-SatisMeterLibrary_Tests.modulemap */,
+				1CC979325515B9ABAFB4FA790FE1DAB2 /* Pods-SatisMeterLibrary_Tests-acknowledgements.markdown */,
+				0D65EA2A960E8F710C22C961E6D8BB80 /* Pods-SatisMeterLibrary_Tests-acknowledgements.plist */,
+				45CA821BF5E400C9EE663C57FD500DB1 /* Pods-SatisMeterLibrary_Tests-dummy.m */,
+				3FE517CACDAB3E27E0233564637423CA /* Pods-SatisMeterLibrary_Tests-frameworks.sh */,
+				FF6CF64E7A1473FE3CF98F98F871FE41 /* Pods-SatisMeterLibrary_Tests-resources.sh */,
+				9CA0AC051F8E026AF236FE3E8F618047 /* Pods-SatisMeterLibrary_Tests-umbrella.h */,
+				EF4809BF69C201B50920E040304390FE /* Pods-SatisMeterLibrary_Tests.debug.xcconfig */,
+				893F35608ECEC67896D46124D7913FCE /* Pods-SatisMeterLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-SatisMeterLibrary_Tests";
+			path = "Target Support Files/Pods-SatisMeterLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		A99D361BCD09626DBF29C744655D6F4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B471561A67665533CFD1B7AB50B6AC8A /* Info.plist */,
+				9EC2F417224FFA9145C9D8DF7D80EADC /* SatisMeterLibrary.modulemap */,
+				EEA10392A8DB1342366C2C2235EF464B /* SatisMeterLibrary.xcconfig */,
+				7117E637FB75DE8ADB7F61164F6A6113 /* SatisMeterLibrary-dummy.m */,
+				74F62C067363E5899F79357D68AD0E40 /* SatisMeterLibrary-prefix.pch */,
+				17FC359C6FCD45C42F4DDF8BC45E45B2 /* SatisMeterLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SatisMeterLibrary";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEDB938471B4BAB8C0E9A929BCA01AFF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				29F0DEA23DF611BD920D0AECD405C67C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3EED00850D0A589927EC4293E881461 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				944EFA175B99E4842F13AF5000AE8ABA /* Pods-SatisMeterLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6B7644908ADF0B94E5240FB0FF967CF /* SatisMeterLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB938471B4BAB8C0E9A929BCA01AFF /* Pod */,
+				A99D361BCD09626DBF29C744655D6F4D /* Support Files */,
+			);
+			name = SatisMeterLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACDCF1C1B0BA8248A2EA00D663A8ECFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54CB25CFBDD674174F8E9F7E3CDE5C0 /* SatisMeterLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3C005C56348EAF0093E8C6CDB4CA98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0E60FFACDD383DD327ACCBFDB0CF78 /* Pods-SatisMeterLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E54419C2C3559F4D188FB82C90BCB9D /* Pods-SatisMeterLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE832D0999AF41ED02C85B7C4D630FFC /* Build configuration list for PBXNativeTarget "Pods-SatisMeterLibrary_Tests" */;
+			buildPhases = (
+				0448A7DCFEB72DD005D6BF81BE3ABB43 /* Sources */,
+				D77F075BF7403D7285866629BB514D5E /* Frameworks */,
+				CD3C005C56348EAF0093E8C6CDB4CA98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				519809678DC6D64AD13C2BB77F7C008F /* PBXTargetDependency */,
+			);
+			name = "Pods-SatisMeterLibrary_Tests";
+			productName = "Pods-SatisMeterLibrary_Tests";
+			productReference = 4E1808C7490F02A5CBDEA716E9C33886 /* Pods_SatisMeterLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D1C1D9EEFC341B08244E32ED3A4641E /* SatisMeterLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B0E64695934D9B8FC4E0A70340D86C /* Build configuration list for PBXNativeTarget "SatisMeterLibrary" */;
+			buildPhases = (
+				761B8533657C0E7908168788F315F2D8 /* Sources */,
+				A0632F996C3C429F49FBBBB70243B7A2 /* Frameworks */,
+				CA7B363CD156C8991457124F4C4EF781 /* Resources */,
+				ACDCF1C1B0BA8248A2EA00D663A8ECFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780BCAAD72907A842E788D96BC1B23FC /* PBXTargetDependency */,
+			);
+			name = SatisMeterLibrary;
+			productName = SatisMeterLibrary;
+			productReference = 28840792070237B32E647B610CB60500 /* SatisMeterLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F673F8787E0B4C7B61CC303DD046441A /* SatisMeterLibrary-SatisMeterLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FE2256D7C15C263C34081585DBE4AD /* Build configuration list for PBXNativeTarget "SatisMeterLibrary-SatisMeterLibrary" */;
+			buildPhases = (
+				63E93A76A29B680E6E94CE5DBA60340C /* Sources */,
+				E6B49672DA79484813335A2011A199EF /* Frameworks */,
+				4130CB38A38FCB2FECF153B8D2F603DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SatisMeterLibrary-SatisMeterLibrary";
+			productName = "SatisMeterLibrary-SatisMeterLibrary";
+			productReference = 5F6E887EF10D0F14AB521E11DB6A4D2E /* SatisMeterLibrary.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 08A95B1518A71AC2F717B0B6ED34BDD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E54419C2C3559F4D188FB82C90BCB9D /* Pods-SatisMeterLibrary_Tests */,
+				9D1C1D9EEFC341B08244E32ED3A4641E /* SatisMeterLibrary */,
+				F673F8787E0B4C7B61CC303DD046441A /* SatisMeterLibrary-SatisMeterLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4130CB38A38FCB2FECF153B8D2F603DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7B363CD156C8991457124F4C4EF781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046893D81C7F0DE60004EDD1 /* SatisMeterResources.bundle in Resources */,
+				D3170925E4213A971DB26491F2AD2A10 /* SatisMeterLibrary.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0448A7DCFEB72DD005D6BF81BE3ABB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED527A3C4AD57EAC692E133E3C0787A5 /* Pods-SatisMeterLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E93A76A29B680E6E94CE5DBA60340C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761B8533657C0E7908168788F315F2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF0113977AA77A526AB904792CF530A /* SatisMeterLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		519809678DC6D64AD13C2BB77F7C008F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SatisMeterLibrary;
+			target = 9D1C1D9EEFC341B08244E32ED3A4641E /* SatisMeterLibrary */;
+			targetProxy = 55579194D960BCAB255BF188F5CFF3BE /* PBXContainerItemProxy */;
+		};
+		780BCAAD72907A842E788D96BC1B23FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SatisMeterLibrary-SatisMeterLibrary";
+			target = F673F8787E0B4C7B61CC303DD046441A /* SatisMeterLibrary-SatisMeterLibrary */;
+			targetProxy = 4B0E9E29EFD6C9372E99D91BFB29D5EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0444A9732D449E9472FE21619D77F24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4809BF69C201B50920E040304390FE /* Pods-SatisMeterLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatisMeterLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SatisMeterLibrary_Tests/Pods-SatisMeterLibrary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SatisMeterLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		40C1AF270CD01FF45CFC133514D6D826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA10392A8DB1342366C2C2235EF464B /* SatisMeterLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SatisMeterLibrary/SatisMeterLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SatisMeterLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MODULEMAP_FILE = "Target Support Files/SatisMeterLibrary/SatisMeterLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SatisMeterLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54D9B230D8558D8EFEB59BE6CC092295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA10392A8DB1342366C2C2235EF464B /* SatisMeterLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SatisMeterLibrary/SatisMeterLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SatisMeterLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MODULEMAP_FILE = "Target Support Files/SatisMeterLibrary/SatisMeterLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SatisMeterLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A18D63837C0F172D666CA48D11A0FA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA10392A8DB1342366C2C2235EF464B /* SatisMeterLibrary.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SatisMeterLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B12F405D03C1F8E6BD26E20F34F3A8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893F35608ECEC67896D46124D7913FCE /* Pods-SatisMeterLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatisMeterLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SatisMeterLibrary_Tests/Pods-SatisMeterLibrary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SatisMeterLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC2E026DCCD95B2C8A920FB6799A958E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA10392A8DB1342366C2C2235EF464B /* SatisMeterLibrary.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SatisMeterLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B0E64695934D9B8FC4E0A70340D86C /* Build configuration list for PBXNativeTarget "SatisMeterLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D9B230D8558D8EFEB59BE6CC092295 /* Debug */,
+				40C1AF270CD01FF45CFC133514D6D826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FE2256D7C15C263C34081585DBE4AD /* Build configuration list for PBXNativeTarget "SatisMeterLibrary-SatisMeterLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2E026DCCD95B2C8A920FB6799A958E /* Debug */,
+				A18D63837C0F172D666CA48D11A0FA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE832D0999AF41ED02C85B7C4D630FFC /* Build configuration list for PBXNativeTarget "Pods-SatisMeterLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0444A9732D449E9472FE21619D77F24D /* Debug */,
+				B12F405D03C1F8E6BD26E20F34F3A8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

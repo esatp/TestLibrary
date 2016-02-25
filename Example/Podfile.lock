@@ -1,0 +1,14 @@
+PODS:
+  - SatisMeterLibrary (0.1.0)
+
+DEPENDENCIES:
+  - SatisMeterLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  SatisMeterLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SatisMeterLibrary: 28c91d20305658c0407100e46b0103507b26f43f
+
+COCOAPODS: 0.39.0
